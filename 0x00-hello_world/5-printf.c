@@ -3,7 +3,6 @@
 
 /**
  * main- initial point
- *    
  * Return: 0 (Successful)
  */
 
