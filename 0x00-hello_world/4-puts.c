@@ -1,17 +1,22 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- */
 
-int main( )
+/**
+ *
+ *  * main - initial point
+ *
+ *   *
+ *
+ *    * Return: 0 (code Successful)
+ *
+ *     */
+
+int main(void)
+
 {
 
-/**
- * put - prints programming is like a multilingual puzzle
- * if return = (0) = success
- */
-	puts("\"Programming is like building a multilingual puzzle");
-         	return (0);
+		puts("\"Programming is like building a multilingual puzzle");
+
+			return (0);
 
 }
