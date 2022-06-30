@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+/**
+ * main - initial point
+ *
+ * print - prints the words in bracket
+ *
+ * return: (0) (code successful)
+ */
+
+int main(void)
+{
+	printf("with proper grammar, but the outcome is a piece of art,");
+
+                  	return (0);
+
+}		      
