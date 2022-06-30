@@ -2,14 +2,11 @@
 
 
 /**
+ * main - initial point
  *
- *  * main - initial point
+ * Return: 0 (code Successful)
  *
- *   *
- *
- *    * Return: 0 (code Successful)
- *
- *     */
+ */
 
 int main(void)
 
