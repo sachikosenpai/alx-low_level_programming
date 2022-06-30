@@ -1,10 +1,11 @@
 #include <unistd.h>
 
 /**
-* main - print out the last standard error 
- * Return: Always (1) successful
- *
- */
+* main - print out the last standard error
+*
+* Return: Always (1) successful
+*
+*/
 int main(void)
 
 {
