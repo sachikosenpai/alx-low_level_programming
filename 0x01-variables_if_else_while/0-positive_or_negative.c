@@ -2,11 +2,13 @@
 
 #include <time.h>
 
-/* more headers goes there */
+#define RAND_MAX 
 
-
-
-/* betty style doc for function main goes there */
+/** main - initial point
+ * printf - random number
+ * random number is produced on every situation
+ * return - 0 (success)
+ */
 
 int main(void)
 
@@ -19,24 +21,9 @@ int main(void)
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
-/** print - generate random number
- * scan -choose number
- */
-	printf("Input a number :");
 
-	    scanf("%d", &n);
+					printf("%d\n", n);
 
-	        if (n > 0)
-
-			         printf("%d is a positive number \n", n);
-
-	       else if (n < 0)
-
-			           printf("%d is a negative number \n", n);
-
-		else if (n == 0)
-			           printf("%d is a negative number \n", n);
-					
-		return (0);
+					return (0);
 
 }
