@@ -7,6 +7,9 @@
  */
 
 int main(void)
+/**
+ * main - Entry point
+ */
 
 {
 	char c = 'a';
