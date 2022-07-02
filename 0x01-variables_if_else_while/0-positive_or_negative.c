@@ -1,8 +1,4 @@
-#include <stdlib.h>
-
-#include <time.h>
-
-#define RAND_MAX 
+#include <stdio.h>
 
 /** main - initial point
  * printf - random number
@@ -10,7 +6,7 @@
  * return - 0 (success)
  */
 
-int main(void)
+int main( )
 
 {
 
