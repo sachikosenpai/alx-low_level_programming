@@ -1,17 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /** 
- * main - Entry point
- *
- * printf - random number
- *
- * random number is produced on every situation
- *
- * return - 0 (success)
- */
-
+* main - Entry point
+*
+* printf - random number
+*
+* random number is produced on every situation
+*
+* return - Always 0.
+*/
 int main(void)
 {
 int n;
