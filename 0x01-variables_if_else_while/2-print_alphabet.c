@@ -2,9 +2,8 @@
 
 /**
  *
- * main - prints the alphabet in lowercase.
+ * main - Entry point
  *
- * 
  *
  * Return: Always 0 successful
  *
@@ -16,6 +15,7 @@ int main(void)
 	char c = 'a';
 	while (c <= 'z')
 {
+
 	putchar(c);
 	c++;
 }
