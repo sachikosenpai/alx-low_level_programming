@@ -19,10 +19,24 @@ int main(void)
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
+/** print - generate random number
+ * scan -choose number
+ */
+	printf("Input a number :");
 
-					/* your code goes there */
-			printf("Random number is: %d " , rand());
+	    scanf("%d", &n);
 
-					return (0);
+	        if (n > 0)
+
+			         printf("%d is a positive number \n", n);
+
+	       else if (n < 0)
+
+			           printf("%d is a negative number \n", n);
+
+		else if (n == 0)
+			           printf("%d is a negative number \n", n);
+					
+		return (0);
 
 }
