@@ -20,8 +20,6 @@ int main(void)
 			srand(time(0));
 
 				n = rand() - RAND_MAX / 2;
-
-					printf("%d\n", n);
-
-					return (0);
+				printf("%d\n", n); 
+				return (0);
 }
