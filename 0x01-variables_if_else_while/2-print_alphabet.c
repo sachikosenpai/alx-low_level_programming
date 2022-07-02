@@ -1,15 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Print alphabet in lower case
  *
  * return - Always 0 success
  */
 
 int main(void)
-/**
- * main - Entry point
- */
 
 {
 	char c = 'a';
