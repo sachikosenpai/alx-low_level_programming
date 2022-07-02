@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-/** main - initial point
+/** 
+ * main - Entry point
+ *
  * printf - random number
+ *
  * random number is produced on every situation
+ *
  * return - 0 (success)
  */
 
-int main( )
-
+int main(void)
 {
 
 		int n;
@@ -21,5 +24,4 @@ int main( )
 					printf("%d\n", n);
 
 					return (0);
-
 }
