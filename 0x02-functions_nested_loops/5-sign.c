@@ -5,8 +5,8 @@
  * @n: the number of which the sign will be printed
  *
  * Return: if nis greater than 0
- * 	0 if n is zero
- * 	-1 is n is less than 0
+ * 0 if n is zero
+ * -1 is n is less than 0
  */
 
 int print_sign(int n)
