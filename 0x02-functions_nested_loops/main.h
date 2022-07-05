@@ -1,5 +1,7 @@
-#ifndef main.h
-#define main.h
+#ifndef main_h
+#define main_h
+
+#end if
 
 /**
  * File : main.h
