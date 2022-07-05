@@ -1,9 +1,10 @@
-#ifndef main_h
-#define main_h
+#ifndef main.h
+#define main.h
 
-/*
- * File: main.h
- * Desc: header file for all functions in this diectory
- * Auth: Popoola Abisola
+/**
+ * File : main.h
+ * Auth Popoola Abisola
+ * header file for this diectory
  */
-int _putchar(char c)
+
+int _putchar(char c);
