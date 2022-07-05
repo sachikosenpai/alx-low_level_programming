@@ -1,4 +1,4 @@
-#include<unistd>
+#include<stdio.h>
 
 /**
  * main - to print putchar and a new line
@@ -8,7 +8,6 @@
 
 int _putchar(char c)
 {
-	prinf("_putchar\n");
 	return(write (1, &c, 1));
 
 }
