@@ -1,8 +1,6 @@
 #ifndef main_h
 #define main_h
 
-#endif
-
 /**
  * File : main.h
  * Auth Popoola Abisola
@@ -10,3 +8,5 @@
  */
 
 int _putchar(char c);
+
+#endif
