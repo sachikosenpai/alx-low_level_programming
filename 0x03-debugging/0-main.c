@@ -8,7 +8,7 @@
 
 
 
-void positive_or_negative(int i)
+void positive_or_negative(int i;)
 {
 	int i;
 	i = 98;
