@@ -10,8 +10,8 @@
 int _isupper(int c)
 {
 	char c;
-	
-	if ( c == 'A')
+
+	if (c == 'A')
 	{
 	return (1);
 	}
