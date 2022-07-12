@@ -3,6 +3,7 @@
 /**
  * puts_half - function that prints half of a string
  * @str - input string to be printed
+ * Description: prints second half of string
  *
  */
 
