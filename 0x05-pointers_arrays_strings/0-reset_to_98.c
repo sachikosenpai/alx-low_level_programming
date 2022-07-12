@@ -11,12 +11,12 @@
 
 void reset_to_98(int *n)
 {
-	int g;
+	int n;
 
-	g = 402;
+	n = 402;
 
-	printf("g=%d\n", g);
-	reset_to_98(&g);
-	printf("g=%d\n", g);
+	printf("n=%d\n", n);
+	reset_to_98(&n);
+	printf("n=%d\n", n);
 	
 }
