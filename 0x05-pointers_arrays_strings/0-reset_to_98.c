@@ -17,7 +17,7 @@ void reset_to_98(int *n)
 
 	printf("Value of 'g': %d\n", g);
 	printf("Address of 'g': %p\n", &g);
-	*n = 98;
+	reset_to_98(&g);
 	printf("Value of 'n': %p\n", n);
 	
 }
