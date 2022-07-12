@@ -12,15 +12,12 @@
 void reset_to_98(int *n)
 {
 	int g;
-	int *n;
 
 	g = 402;
-	n = &g;
 
 	printf("Value of 'g': %d\n", g);
 	printf("Address of 'g': %p\n", &g);
-	printf("Value of 'n': %p\n", n);
 	*n = 98;
-	printf("Value of 'n': %d\n", n);
+	printf("Value of 'n': %p\n", n);
 	
 }
