@@ -13,8 +13,7 @@ char *_strcat(char *dest, char *src)
 	char destination[] = "dest ";
 	char source[] = "src";
 
-	_strcat(destination,source);
-	_putchar(_strcat (destination,source));
+	_putchar(_strcat(destination,source));
 
 		_putchar('\n');
 		return (0);
