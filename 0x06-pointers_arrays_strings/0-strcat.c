@@ -5,7 +5,7 @@
  * @dest: first string
  * @src: second string
  *
- * Return - Always (0)
+ * Return: Always (0)
  */
 
 char *_strcat(char *dest, char *src)
@@ -14,7 +14,7 @@ char *_strcat(char *dest, char *src)
 	char source[] = "src";
 
 	_strcat(destination,source);
-	_putchar("%s" , destination);
+	_putchar("%s",  destination);
 
 		_putchar('\n');
 		return (0);
