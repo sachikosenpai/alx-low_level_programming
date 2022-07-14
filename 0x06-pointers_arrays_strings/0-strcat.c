@@ -5,16 +5,24 @@
  * @dest: first string
  * @src: second string
  *
- * Return: Always (0)
+ * Return: pointer to dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	char destination[] = "dest ";
-	char source[] = "src";
+	int i, j;
 
-	_putchar(_strcat(destination,source));
+	i = 0;
 
-		_putchar('\n');
-		return (0);
+	while (dest[i] != '\0')
+		i++;
+
+	for (j = 0; src[j] != '\0'; j++)
+	{
+		dest[i] = src[j];
+		i++
+	}
+	dest[i] = src[j];
+
+	return (dest);
 }
