@@ -14,7 +14,7 @@ char *_strcat(char *dest, char *src)
 	char source[] = "src";
 
 	_strcat(destination,source);
-	_putchar("%s",  destination);
+	_putchar(_strcat (destination,source));
 
 		_putchar('\n');
 		return (0);
