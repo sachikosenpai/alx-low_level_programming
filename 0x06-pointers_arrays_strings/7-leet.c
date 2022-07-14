@@ -13,7 +13,7 @@ char *leet(char *d)
 
 	replace = "aAeEoOtTlL4433007711";
 
-	for (i = 0: d[i] != '\0'; i++)
+	for (i = 0; d[i] != '\0'; i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
