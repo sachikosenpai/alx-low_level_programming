@@ -2,8 +2,8 @@
 
 /**
  * _strspn - gets the length of a prefix substring
- * @s - char
- * @accept - byes
+ * @s: char
+ * @accept: bytes
  * Return: number of bytes from s
  */
 
@@ -19,7 +19,7 @@ unsigned int _strspn(char *s, char *accept)
 			for (j = 0; accept[j] != '\0'; j++)
 			{
 				if (s[i] == accept[j])
-					c++;}
+					c++;
 		}
 		else
 			return (c);
