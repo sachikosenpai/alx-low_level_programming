@@ -1,5 +1,7 @@
 #include "main.h"
 
+int finds_sqrtroot(int i, int root);
+
 /*
  * finds_sqrtroot - find square root of a given number
  * @i: number of square root to be found 
