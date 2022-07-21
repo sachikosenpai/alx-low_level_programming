@@ -20,5 +20,3 @@ int is_prime_number(int n, int i)
 		is_prime_number(n, i -1);
 	}
 }
-
-
