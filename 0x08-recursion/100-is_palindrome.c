@@ -32,17 +32,18 @@ int _strlen_recursion(char *s)
  * @n: size of string
  * @i: counter string
  *
- * Retuen: 1 if palindrome, 0 if not
+ * Return: 1 if palindrome, 0 if not
  */
 
 int check_palindrome(char *s, int n, int i)
 {
-	if (i < n && s[i] == s[n])
-		return (check_palindrome(s, n - 1, i + 1));
-	
-	if(s[i] != s[n])
-		return (0);
-	return (1);
+	if (s[i] == s[n / 2])
+		return (1);
+
+	if (s[i] == s[n - i - 1])
+		return (check_palindrome(s, n, i + 1));
+
+	return (0);
 }
 
 /**
@@ -54,5 +55,11 @@ int check_palindrome(char *s, int n, int i)
 
 int is_palindrome(char *s)
 {
-	return (check_palindrome(s, _strlen_recursion(s) - 1, 0));
+	int i = 0;
+	int n = check_palindrome(s);
+
+	if (!(*s))
+		return (1);
+
+	return (check_palindrome(s, n, i));
 }
