@@ -37,13 +37,12 @@ int _strlen_recursion(char *s)
 
 int check_palindrome(char *s, int n, int i)
 {
-	if (n <= 1)
-		return (1);
+	if (i < n && s[i] == s[n])
+		return (check_palindrome(s, n - 1, i + 1));
 	
 	if(s[i] != s[n])
 		return (0);
-
-	return (check_palindrome(s, n - 1, i + 1));
+	return (1);
 }
 
 /**
