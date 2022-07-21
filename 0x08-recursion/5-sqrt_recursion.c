@@ -9,7 +9,7 @@
  *  otherwise result
  */
 
-int finds_sqrtroot(int i int root)
+int finds_sqrtroot(int i, int root)
 {
 	if((root * root) == i)
 		return (root);
