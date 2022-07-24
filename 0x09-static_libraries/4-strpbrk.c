@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.h>
+#include <stdio.h>
 
 /**
  * _strpbk - searches a string for any of a set of bytes
@@ -11,15 +11,17 @@
 
 char *_strpbk(char *s, char *accept)
 {
-	int i;
+	int *z = accept;
 
 	while (*s)
 	{
-		for (i = 0; accept[i]; i++)
+		while (*accept)
 		{
-			if (*s == accept[i])
+			if (accept == *s)
 				return (s);
+			accept++;
 		}
+		accept = z;
 		s++;
 	}
 	return (NULL);
