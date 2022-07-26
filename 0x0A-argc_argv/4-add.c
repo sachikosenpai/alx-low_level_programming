@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 	{
 		for (a = 0; argv[argc][a]; a++)
 		{
-			if (!(isdigit(argv[argc][i])))
+			if (!(isdigit(argv[argc][a])))
 			{
 				printf("Errot\n");
 				return (1);
