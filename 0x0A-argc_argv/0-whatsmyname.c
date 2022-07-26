@@ -8,16 +8,8 @@
  * Return: 0
  */
 
-int main (int argc, char *argv[])
+int main (int __attribute__((__unused__)) argc, char *argv[])
 {
-	int name;
-
-	if (argv > 1)
-	{
-		for (name = 1; name < argv; name++)
-			_putchar("%s", name);
-		else
-			_putchar('\n');
+	printf("%s\n", argv[0]);
 		return (0);
-	}
 }
