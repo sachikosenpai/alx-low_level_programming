@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
+
 /**
  * create_array - creates an array of chars
  * @size:  size of the array
@@ -17,13 +19,13 @@ char *create_array(unsigned int size, char c)
 
 	if (x == NULL)
 		return (NULL);
-	if (size == NULL)
+	if (size == 0)
 		return (NULL);
 
 	while (i < size)
 	{
 		x[i] = c;
-		i++:;
+		i++;
 	}
 	return (x);
 }
