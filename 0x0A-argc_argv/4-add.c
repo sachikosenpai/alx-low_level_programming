@@ -16,7 +16,7 @@ int main(int argc, char **argv)
 
 	while (argc-- > 1)
 	{
-		for (i = 0; argv[argc][i]; i++)
+		for (a = 0; argv[argc][a]; a++)
 		{
 			if (!(isdigit(argv[argc][i])))
 			{
@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 			}
 		}
 		b = atoi(argv[argc]);
-		add += j;
+		add += b;
 	}
 	printf("%d\n", add);
 	return (0);
