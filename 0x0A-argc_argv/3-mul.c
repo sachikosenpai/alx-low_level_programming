@@ -9,7 +9,7 @@
  * Return: 0 on success and 1 if input is less than 1
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int a, b, multi;
 
@@ -18,11 +18,13 @@ int main(int argc, char *argv)
 		printf("Error\n");
 		return (1);
 	}
-
-	a = atoi(argv[1]);
-	b = atoi(argv[2]);
-	multi = a * b;
-
-	printf("%d\n", multi);
-	return (0);
+	else
+	{
+		a = atoi(argv[1]);
+		b = atoi(argv[2]);
+		multi = a * b;
+		
+		printf("%d\n", multi);
+		return (0);
+	}
 }
