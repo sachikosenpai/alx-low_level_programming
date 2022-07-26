@@ -12,7 +12,7 @@
 
 int main(int argc, char **argv)
 {
-	int a, b, add;
+	int a, b, add = 0;
 
 	while (argc-- > 1)
 	{
@@ -20,7 +20,7 @@ int main(int argc, char **argv)
 		{
 			if (!(isdigit(argv[argc][a])))
 			{
-				printf("Errot\n");
+				printf("Error\n");
 				return (1);
 			}
 		}
