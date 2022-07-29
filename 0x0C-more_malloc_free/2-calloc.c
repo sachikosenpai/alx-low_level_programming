@@ -6,6 +6,8 @@
  * memory for an array, using malloc.
  * @nmemb: elements
  * @size: byte size
+ * Return: If nmemb or size is 0, then _calloc returns NULL
+ * If malloc fails, then _calloc returns NULL
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
