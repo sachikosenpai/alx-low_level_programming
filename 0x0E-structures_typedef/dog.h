@@ -7,7 +7,7 @@
  * @name: name of dog
  * @owner: owner of the dog
  * @age: age of the dog
- * my_dog: function of the dog to be used
+ * my_dog - function of the dog to be used
  *
  * Return: 0 on success
  */
@@ -18,6 +18,15 @@ struct dog
 	float age;
 	char *owner;
 };
+
+/**
+ * my_dog - typedef for struct dog
+ * @name: name of dog
+ * @age: age of the dog
+ * @owner: owner of the dog
+ * Return: dog on success
+ */
+
 
 struct dog *my_dog(char *name, float age, char *owner)
 {
