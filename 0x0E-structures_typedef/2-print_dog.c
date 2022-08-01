@@ -9,17 +9,13 @@
 
 void print_dog(struct dog *d)
 {
-	char *name;
-	char *owner;
-	float age;
-
-	d->name = name;
-	d->owner = owner;
-	d->age = age;
-
-	if (name == NULL || owner == NULL || age == '\0')
-		printf("nil");
-	
 	if (d == NULL)
 		return;
+
+	if (d->name == NULL)
+		d->name = "(nil)";
+	if (d->owner == NULL)
+		d->owner = "(nil)";
+	
+	printf("Name: %s\nAge: %f\nOwner: %s\n", d->name, d->age, d->owner);
 }
