@@ -2,7 +2,6 @@
 #include <stdlib.h>
 
 /**
- * struct dog - struct function
  * init_dog - initialized variable
  * @d: user input
  * @name: name of the dog
