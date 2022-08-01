@@ -14,10 +14,6 @@
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	/*
-	 * init_dog - initialized variable
-	 * Return: dog on success
-	 */
 
 	if (d != NULL)
 	{
