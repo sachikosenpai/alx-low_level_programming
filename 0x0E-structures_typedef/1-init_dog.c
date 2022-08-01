@@ -19,7 +19,6 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
 	 * Return: dog on success
 	 */
 
-	d = malloc(sizeof(struct dog));
 	if (d != NULL)
 	{
 		d->name = name;
