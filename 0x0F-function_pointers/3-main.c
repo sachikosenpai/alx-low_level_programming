@@ -9,7 +9,7 @@
  * Return: 0 on success
  */
 
-int main(int argc char *argc[])
+int main(int argc, char *argv[])
 {
 	int a, b, c;
 	int (*p)(int, int);
