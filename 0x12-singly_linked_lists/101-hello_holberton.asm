@@ -11,7 +11,6 @@ _start:
 	mov rax, 1
 	mov rdi, 1
 	mov rsi, msg
-	mov rdx, 13
 	call printf
 
 	mov rax, 60
