@@ -12,7 +12,7 @@
  * @next: points to the next node
  *
  * Description: singly listed note for this repository
- ingly_linked_lists
+ * singly_linked_lists
  */
 
 typedef struct list_s
