@@ -11,8 +11,8 @@ _start:
 	mov rax, 1
 	mov rdi, 1
 	mov rsi, msg
-	call printf
+	syscall
 
 	mov rax, 60
 	mov rdi, 0
-	call printf
+	syscall
