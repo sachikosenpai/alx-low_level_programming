@@ -14,8 +14,10 @@ void free_list(list_t *head)
 
 	while (head != NULL)
 	{
+		
+		if (head->str != NULL)
+			free(head->str);
 		currentnode = head->next;
-		free(head->next);
 		free(head);
 		head = currentnode;
 	}
