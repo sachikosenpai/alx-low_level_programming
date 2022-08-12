@@ -8,6 +8,7 @@
  * node at the beginning of a list_t list.
  * @head: head list
  * @str: string to be duplicated
+ * Return: head value
  */
 
 list_t *add_node(list_t **head, const char *str)
