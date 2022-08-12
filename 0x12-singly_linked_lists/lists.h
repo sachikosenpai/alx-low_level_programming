@@ -12,7 +12,7 @@
  * @next: points to the next node
  *
  * Description: singly listed note for this repository
- *
+ ingly_linked_lists
  */
 
 typedef struct list_s
@@ -24,6 +24,7 @@ typedef struct list_s
 
 
 size_t print_list(const list_t *h);
-
+size_t list_len(const list_t *h);
+int _putchar(char c);
 
 #endif /*LISTS_H*/
