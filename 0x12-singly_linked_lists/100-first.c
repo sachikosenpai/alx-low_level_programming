@@ -5,7 +5,7 @@
 void __attribute__((constructor)) tortoise_hare(void);
 
 /**
- * @tortoise_hare - prints a string before main function
+ * tortoise_hare - prints a string before main function
  *
  */
 
