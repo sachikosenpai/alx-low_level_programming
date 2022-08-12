@@ -5,6 +5,16 @@
 #include <stddef.h>
 #include <stdlib.h>
 
+/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @leng: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly listed note for this repository
+ *
+ */
+
 typedef struct list_s
 {
 	char *str;
@@ -16,4 +26,4 @@ typedef struct list_s
 size_t print_list(const list_t *h);
 
 
-#endif
+#endif /*LISTS_H*/
