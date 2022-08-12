@@ -1,7 +1,8 @@
 
 
 section .data
-msg db "Hello, Holberton",10
+msg: db "Hello, Holberton",0
+fmt: db "%s", 10, 0
 
 section .text
 global_start
