@@ -3,10 +3,10 @@
 #include <stdlib.h>
 
 /**
- * add_nodeint_end - a function that adds a 
+ * add_nodeint_end - a function that adds a
  * new node at the end of a listint_t list.
  * @head: pointer to the linked list
- * @n: 
+ * @n: integer
  * Return: NULL
  */
 
