@@ -4,7 +4,7 @@
 /**
  * free_listint2 -  a function that
  * frees a listint_t list.
- * head - pointer to the function
+ * head: pointer to the function
  */
 
 void free_listint2(listint_t **head)
@@ -20,4 +20,6 @@ void free_listint2(listint_t **head)
 		free(*head);
 		(*head) = cnode;
 	}
+
+	head = NULL;
 }
