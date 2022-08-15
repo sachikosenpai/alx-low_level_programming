@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 /**
- * free_listint2 - a function that frees
+ * free_listint - a function that frees
  * a listint_t list.
  * @head: pointer to the linked list
  */
