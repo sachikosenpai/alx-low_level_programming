@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 /**
- * int binary_to_uint - a function that converts a binary
+ * binary_to_uint - a function that converts a binary
  * number to an unsigned int.
  * @b: pointer to the string
  *
@@ -23,7 +23,7 @@ unsigned int binary_to_uint(const char *b)
 	while (b[i] == '0' || b[i] == '1')
 	{
 		val <<= 1;
-		val += b[i]-'0';
+		val += b[i] - '0';
 		i++;
 	}
 	return (val);
