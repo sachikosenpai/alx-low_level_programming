@@ -70,7 +70,7 @@ void check_99(ssize_t check, char *file, int fd_from, int fd_to)
 
 void check_100(int check, int fd)
 {
-	if (check == 1)
+	if (check == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
